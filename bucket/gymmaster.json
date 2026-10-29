@@ -1,12 +1,12 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "Gym Master in your terminal: chat with Gym Master AI on your workspace data, call the API, manage keys and webhooks",
   "homepage": "https://developers.gymmaster.vn/docs/cli",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.2.0/gymmaster-windows-x64.zip",
-      "hash": "05b857a3e0f47869beb4437ea3882929240cb7fa2687de509b6d36bd1be967f7"
+      "url": "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.1/gymmaster-windows-x64.zip",
+      "hash": "b6d9e70563a47bc7f26d4cc55051da049deef64a817289eeed14e6784a6553d9"
     }
   },
   "bin": "gymmaster.exe",
