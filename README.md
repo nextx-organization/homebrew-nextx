@@ -1,14 +1,14 @@
 # NextX tap
 
-Homebrew formulae and Scoop manifests for the NextX and Gym Master command-line tools.
+Homebrew formulae and Scoop manifests for NextX command-line tools.
 
 ```bash
-brew install nextx-organization/tap/nextx
-brew install nextx-organization/tap/gymmaster
+brew install nextx-organization/nextx/nextx
+brew install nextx-organization/nextx/gymmaster
 ```
 
 ```powershell
-scoop bucket add nextx https://github.com/nextx-organization/homebrew-tap
+scoop bucket add nextx https://github.com/nextx-organization/homebrew-nextx
 scoop install nextx/nextx
 ```
 
