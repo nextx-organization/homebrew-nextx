@@ -1,12 +1,12 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "NextX in your terminal: chat with NextX AI on your workspace data, call the API, manage keys and webhooks",
   "homepage": "https://developers.nextx.vn/docs/cli",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/nextx-organization/nextx-cli/releases/download/v0.2.0/nextx-windows-x64.zip",
-      "hash": "01df99a2a8e7c2f7add58609e33dba0e18621e7cea1dfd33ddfd2b0d1930e068"
+      "url": "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.1/nextx-windows-x64.zip",
+      "hash": "a8efc394b891833ef386c835874988aa4af4b7337f1ae362ed614b04a93a124e"
     }
   },
   "bin": "nextx.exe",
