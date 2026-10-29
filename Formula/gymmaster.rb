@@ -1,28 +1,28 @@
 class Gymmaster < Formula
   desc "Gym Master in your terminal: chat with Gym Master AI on your workspace data, call the API, manage keys and webhooks"
   homepage "https://developers.gymmaster.vn/docs/cli"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.1/gymmaster-darwin-arm64.tar.gz"
-      sha256 "93ab0553fe822e2180b024e4034756f659ab967baa2b66678eed5050baf961e1"
+      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.2/gymmaster-darwin-arm64.tar.gz"
+      sha256 "dacdf59a23c4393d8face33dc1f6a98e50d5cf2167e638b0f82c8c06038e0dcd"
     end
     on_intel do
-      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.1/gymmaster-darwin-x64.tar.gz"
-      sha256 "bfca8316749aa46312a173ef429d3170eabaf17e78079bcb1a1f69729b6098d0"
+      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.2/gymmaster-darwin-x64.tar.gz"
+      sha256 "3452d18630493e09c957fa1e0a6886633edd31310b4fdc3ed6d241a17d53a060"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.1/gymmaster-linux-arm64.tar.gz"
-      sha256 "017d63e513d3791b6d7470de03b3ca594aed8a1cdc257651c6560f18f051a37e"
+      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.2/gymmaster-linux-arm64.tar.gz"
+      sha256 "e2d01615dd22e2f4d082532c137e619ae537fa89d7361441f9f33c7e96bbf163"
     end
     on_intel do
-      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.1/gymmaster-linux-x64.tar.gz"
-      sha256 "e8bd86d743e4f0a22f5789853fd62aa19094ebb56b3c6fc9eb9c0721c0d3b4c9"
+      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.2/gymmaster-linux-x64.tar.gz"
+      sha256 "91715619d0e48b422cdcb26393fb91a9df29e226f07a773e0b829337855724ed"
     end
   end
 
