@@ -1,28 +1,32 @@
 class Nextx < Formula
-  desc "NextX in your terminal: chat with NextX AI on your workspace data, call the API, manage keys and webhooks"
+  desc "Command-line client for NextX AI: chat, API, keys and webhooks"
   homepage "https://developers.nextx.vn/docs/cli"
-  version "0.3.3"
   license "MIT"
+
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
 
   on_macos do
     on_arm do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.3/nextx-darwin-arm64.tar.gz"
-      sha256 "39c4721c7caba455120ce34db7a6981a1d4f5acd6512c0c244c8776dc61142ca"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.4/nextx-darwin-arm64.tar.gz"
+      sha256 "d05a413cd3dab3a84ad7ba801dca8ed213df476c3aa5ddf4ac19a853ab3fe087"
     end
     on_intel do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.3/nextx-darwin-x64.tar.gz"
-      sha256 "b7eda4626156f836250e193a8e4bc2f402f8ec699d9c3e6ee8a9e2f871448d52"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.4/nextx-darwin-x64.tar.gz"
+      sha256 "fb2be4be2df1d5cfca2c7c88c9d9743e22f9ec3203a97f1b3257d0af80845525"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.3/nextx-linux-arm64.tar.gz"
-      sha256 "0fa6f7b41871ddf35f4591bd1d3d313a3b0befc443efa0a2e6ca01a764b7bbb0"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.4/nextx-linux-arm64.tar.gz"
+      sha256 "ea76f51d7ede8c944378e6b6a0841a8b4acebe09e750d18935cc0887919fd77c"
     end
     on_intel do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.3/nextx-linux-x64.tar.gz"
-      sha256 "a4df5226f0abad07bf88a85905e9b36b723a951f6bee65e51107c6fd07fdf806"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.4/nextx-linux-x64.tar.gz"
+      sha256 "cc38c4b196390085c5f0a9d77fc47123fb59709de18201513570e6c1bfb6a4eb"
     end
   end
 
