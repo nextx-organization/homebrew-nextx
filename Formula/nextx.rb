@@ -1,28 +1,28 @@
 class Nextx < Formula
   desc "NextX in your terminal: chat with NextX AI on your workspace data, call the API, manage keys and webhooks"
   homepage "https://developers.nextx.vn/docs/cli"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.2/nextx-darwin-arm64.tar.gz"
-      sha256 "a810d699a57b451bcdb3b951be1190b1f842baef6568f249acb3fc127c83bcbb"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.3/nextx-darwin-arm64.tar.gz"
+      sha256 "39c4721c7caba455120ce34db7a6981a1d4f5acd6512c0c244c8776dc61142ca"
     end
     on_intel do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.2/nextx-darwin-x64.tar.gz"
-      sha256 "42d0a2f895ae3965c3e18da689efff75317da0b29ab1fc0f26ca9845b15d25bd"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.3/nextx-darwin-x64.tar.gz"
+      sha256 "b7eda4626156f836250e193a8e4bc2f402f8ec699d9c3e6ee8a9e2f871448d52"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.2/nextx-linux-arm64.tar.gz"
-      sha256 "7d0ae92ef0a63f6feb71c942cf71772581d3314aa3c802e6232524915a941247"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.3/nextx-linux-arm64.tar.gz"
+      sha256 "0fa6f7b41871ddf35f4591bd1d3d313a3b0befc443efa0a2e6ca01a764b7bbb0"
     end
     on_intel do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.2/nextx-linux-x64.tar.gz"
-      sha256 "f1a5a49059354d9c9e6967c21b44b8dd3bea395ceb5d371b9b2e66f978f9f0bf"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.3/nextx-linux-x64.tar.gz"
+      sha256 "a4df5226f0abad07bf88a85905e9b36b723a951f6bee65e51107c6fd07fdf806"
     end
   end
 
