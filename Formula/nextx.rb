@@ -10,23 +10,23 @@ class Nextx < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.5/nextx-darwin-arm64.tar.gz"
-      sha256 "24ea65b475fcb359ce2fc627945df86481b5ddaaed73054e7fcb698727d94429"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.7/nextx-darwin-arm64.tar.gz"
+      sha256 "8fa82e5e1bc00c0ac62301d56fcf2dc5e483bde1439bbb919b08dc117166216f"
     end
     on_intel do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.5/nextx-darwin-x64.tar.gz"
-      sha256 "a68a396d3c72a6c359beaacd72e4c6bfb4cbea922248869a43e562cf29604b0f"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.7/nextx-darwin-x64.tar.gz"
+      sha256 "d43418155514b66d7a8950a7b77b6bad7a21f562dfb4949b4f3507c2f2f9ec9f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.5/nextx-linux-arm64.tar.gz"
-      sha256 "4d78e402fc27c42a588ad2360849648adf57694163772bada51f0a3f6f8f8d07"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.7/nextx-linux-arm64.tar.gz"
+      sha256 "8c143a2329f1802511d75a9b8804061e324a6382f1fd40a987056862f087339e"
     end
     on_intel do
-      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.5/nextx-linux-x64.tar.gz"
-      sha256 "90c433a7ce1e7f6b9ea529f3c043a68285bb0899c219481177eb96e08c963299"
+      url "https://github.com/nextx-organization/nextx-cli/releases/download/v0.3.7/nextx-linux-x64.tar.gz"
+      sha256 "e7348df7c4fdd83c98bfbe628be9dc87898a293f1ef48eca638ccd100a332bbe"
     end
   end
 
