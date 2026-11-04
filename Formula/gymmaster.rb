@@ -10,23 +10,23 @@ class Gymmaster < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.8/gymmaster-darwin-arm64.tar.gz"
-      sha256 "91f37a366fadceab609d77912fce5adc762182f38aaef4f48fd8186773a5dd80"
+      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.9/gymmaster-darwin-arm64.tar.gz"
+      sha256 "ac854863217f0b3c54ddb1c4acace373758deaadf7da9ea84968c22ad3070e02"
     end
     on_intel do
-      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.8/gymmaster-darwin-x64.tar.gz"
-      sha256 "ecaf176a8586fe6fa8cb50cf65069feaf10ecc85c63013135d82336538e86ca4"
+      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.9/gymmaster-darwin-x64.tar.gz"
+      sha256 "9351535e36a3dde0469c338c1e4bcaf3fbe0c29a5fb224805f01ab9f7f928098"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.8/gymmaster-linux-arm64.tar.gz"
-      sha256 "808ff1165d561164e2f00e8752848a1b2598c3be7cd86cdb60c788cf88a5bba4"
+      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.9/gymmaster-linux-arm64.tar.gz"
+      sha256 "1a1a88d0a2abccbd5442749c4a9537676bea0a65a611bbee3ad67cd9639d5c8e"
     end
     on_intel do
-      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.8/gymmaster-linux-x64.tar.gz"
-      sha256 "d3ad4a05c9254458e47c8737c51e1acfdcbd783b2846cde34341599cf7ef17e3"
+      url "https://github.com/nextx-organization/gymmaster-cli/releases/download/v0.3.9/gymmaster-linux-x64.tar.gz"
+      sha256 "bf4dddc917bbc7cb8fb3dce51158e514e424a7e8b32d5325d8e883c0755df280"
     end
   end
 
